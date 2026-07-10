@@ -17,7 +17,8 @@
 	}
 	$score_message = "Correct answers: {$score}.";
 	$receipient = 'batumivice@gmail.com';
-	$sender = 'clayman@PD411.academy';
+	$sender = 'master@FreeBSD.academy';
+	//$sender = 'clayman@PD411.academy';
 	#$sender = 'kovtun_ol@t.top-academy.ru';
 	#$headers = "MIME-Version: 1.0\r\n";
 	#$headers .= "Content-type: text/html; charset=utf-8\r\n";

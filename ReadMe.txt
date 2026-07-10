@@ -8,9 +8,13 @@ https://snipp.ru/php/smtp-phpmailer
 https://symfony.com/doc/current/mailer.html
 https://github.com/symfony/mailer?ysclid=mraw5mv3zu870162079
 
+FreeBSD Sendmail issue fixing:
+https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=275575
+
 TODO:
 1. Отправить результаты тестирования на почту;
 2. Настроить sendmail на FreeBSD;
+3. Настроить DNS-сервер на FreeBSD;
 
 DONE:
 1. Передвинуть кнопку;		DONE
