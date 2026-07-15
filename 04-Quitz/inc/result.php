@@ -17,8 +17,8 @@
 	}
 	$score_message = "Correct answers: {$score}.";
 	$receipient = 'batumivice@gmail.com';
-	$sender = 'master@FreeBSD.academy';
-	//$sender = 'clayman@PD411.academy';
+	//$sender = 'master@FreeBSD.academy';
+	$sender = 'client@PD411.academy';
 	#$sender = 'kovtun_ol@t.top-academy.ru';
 	#$headers = "MIME-Version: 1.0\r\n";
 	#$headers .= "Content-type: text/html; charset=utf-8\r\n";
@@ -28,7 +28,7 @@
 	echo '<div class="result">';
 	echo $score_message;
 	echo '<br>';
-	echo mail($receipient, 'Test results', $score_message,$headers);
+	echo mail($receipient, 'Test results', $score_message, $headers);
 	echo '</div>';
 	require_once __DIR__ . '/footer.php';
 ?>
