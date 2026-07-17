@@ -12,6 +12,11 @@ FreeBSD Sendmail issue fixing:
 https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=275575
 
 TODO:
+1. Подсчитать количество правильных ответов;
+2. Выложить репозиторий PHP на FreeBSD хостинг:
+	http://docs.freebsd.org/en/books/handbook/network-servers/#network-apache
+
+DONE:
 1. В проекте 'Quitz' на странице должен отображаться только один вопрос;
 2. Так же должны быть кнопки: 'Следующий' и 'Предыдущий', которые позволяют переключаться между вопросами;
 

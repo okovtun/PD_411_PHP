@@ -30,5 +30,6 @@ $correct_answers =
 	2,
 	3
 	];
+$user_answers = [];
 
 ?>
