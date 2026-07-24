@@ -11,7 +11,14 @@ https://github.com/symfony/mailer?ysclid=mraw5mv3zu870162079
 FreeBSD Sendmail issue fixing:
 https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=275575
 
+PHP tables:
+//https://stackoverflow.com/questions/22258511/how-to-style-php-echo-table
+//https://stackoverflow.com/questions/9335260/print-php-result-in-a-nice-html-table
+
 TODO:
+1. Автоматизировать формирование заголовка таблицы;
+
+DONE:
 1. ?Попробовать применить 'define' в конструкторах;
 2. Обеспечить создание объектов дочерних классов на базе уже существующих объектов родительских классов;
 3. Объединить студентов в группу;

@@ -12,6 +12,8 @@ $query	= "SELECT * FROM Directions";
 $results= sqlsrv_query($connection, $query);
 
 var_dump($results);
+//https://stackoverflow.com/questions/22258511/how-to-style-php-echo-table
+//https://stackoverflow.com/questions/9335260/print-php-result-in-a-nice-html-table
 
 //echo '<table>';
 //echo '<tr>';
@@ -22,10 +24,10 @@ var_dump($results);
 //echo '<th>';
 //echo 'Направление обучения';
 //echo '</th>';
-$table_header = '<table><tr><th>ID</th><th>Направление обучения</th></tr>';
+$table_header = '<table><thead><tr><th>ID</th><th>Направление обучения</th></tr></thead>';
 $table_footer = '</tr></table>';
-
-echo $table_header;
+$table_body = '<tbody>';
+//echo $table_header;
 
 while($row = sqlsrv_fetch_array($results, SQLSRV_FETCH_ASSOC))
 {
@@ -40,10 +42,16 @@ while($row = sqlsrv_fetch_array($results, SQLSRV_FETCH_ASSOC))
 	//echo $row['direction_name'];
 	//echo '</td>';
 	//echo '</tr>';
-	echo create_table_row($row);
+	//echo create_table_row($row);
+	$table_body .= create_table_row($row);
 }
+$table_body .= '</tbody>';
 
-echo $table_footer;
+$table = "{$table_header}{$table_body}{$table_footer}";
+
+echo $table;
+
+//echo $table_footer;
 
 
 ?>
