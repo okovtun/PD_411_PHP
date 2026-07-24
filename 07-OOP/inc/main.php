@@ -11,9 +11,10 @@
 	*/
 
 	$human = new Human("Vercetty", "Tommy", 30);
+	//$human = new Human(last_name:"Vercetty", first_name:"Tommy", age:30);
 	echo $human . '<br>';
 
-	//$t_student = new Student($human, "Theft", "Vice", 90, 99);
+	$t_student = new Student($human, "Theft", "Vice", 90, 99);
 	//https://stackoverflow.com/questions/4697705/php-function-overloading
 
 	$student = new Student("Pinkman", "Jessie", 20, "Chemistry", "WW_220", 90, 95);
