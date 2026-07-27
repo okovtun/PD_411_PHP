@@ -3,7 +3,7 @@
 function create_table_header($results)
 {
 	$metadata = sqlsrv_field_metadata($results);
-	print_r($metadata);
+	//print_r($metadata);
 	$table_header = '<table><thead><tr>';
 	for($i = 0; $i < sqlsrv_num_fields($results); $i++)
 	{

@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>Groups</h1>
+	<!--
 	<table>
 		<thead>
 			<tr>
@@ -16,8 +17,10 @@
 				<th>Количество студентов</th>
 				<th>Направление обечения</th>
 			</tr>
-			<?php require_once __DIR__ . '/get_groups.php'; ?>
 		</thead>
+
 	</table>
+	-->
+			<?php require_once __DIR__ . '/get_groups.php'; ?>
 </body>
 </html>
