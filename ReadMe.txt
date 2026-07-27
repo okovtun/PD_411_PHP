@@ -16,6 +16,11 @@ PHP tables:
 //https://stackoverflow.com/questions/9335260/print-php-result-in-a-nice-html-table
 
 TODO:
+1. Отобразить студентов, преподавателей и дисциплины;
+2. Сделать меню навигации;
+3. Почитать про ORM для PHP;
+
+DONE:
 1. Автоматизировать формирование заголовка таблицы;
 
 DONE:
