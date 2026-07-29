@@ -15,6 +15,9 @@ PHP tables:
 //https://stackoverflow.com/questions/22258511/how-to-style-php-echo-table
 //https://stackoverflow.com/questions/9335260/print-php-result-in-a-nice-html-table
 
+ORM:
+https://www.doctrine-project.org/projects/doctrine-orm/en/3.6/index.html
+
 TODO:
 1. Отобразить студентов, преподавателей и дисциплины;
 2. Сделать меню навигации;
